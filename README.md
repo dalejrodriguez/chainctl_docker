@@ -89,14 +89,3 @@ The workflow is defined in `.github/workflows/docker-publish.yml`.
 
 This repository is for building and distributing the chainctl Docker image. The chainctl tool itself is provided by Chainguard. Please refer to Chainguard's licensing terms for the chainctl binary.
 =======
-This is a dockerized version of chainctl. 
-
-This version is a side project and not an official release from chainguard. 
-
-Usage:
-
- docker run --rm \
-   --env identity="foo" \
-   --env identity_token="bar" \
-   chainctl-image:latest \
-  chainctl img list --parent=example.com
