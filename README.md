@@ -1,6 +1,5 @@
 # chainctl_docker
 
-<<<<<<< copilot/add-public-image-building
 A Docker image that packages Chainguard's [chainctl](https://edu.chainguard.dev/chainguard/chainctl/) CLI tool for easy distribution and use in containerized environments.
 
 ## Features
@@ -101,5 +100,3 @@ Usage:
    --env identity_token="bar" \
    chainctl-image:latest \
   chainctl img list --parent=example.com
-
->>>>>>> main
